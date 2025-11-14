@@ -105,7 +105,7 @@
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-commons</artifactId>
-            <version>1.11.0-M2</version>
+            <version>6.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
