@@ -46,10 +46,13 @@ object Runner {
             println("Command not found!")
             return true
         }
+
+        /*
         if(commandData.args[1] == "-o"){
             printResOfOpt = true
         }
         optimizeLvl = commandData.args[2].toInt()
+         */
 
         when (commandData.command) {
             //RunnerCommand.Compile -> ConsoleUI.showCompilerConsole(commandData.args.toTypedArray());
