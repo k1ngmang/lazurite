@@ -22,7 +22,7 @@ print("Hello World!")
 
 
 async example:
-```cpp
+```go
 using "lzr.utils.async"
 
 func hel(arg) {
@@ -32,7 +32,7 @@ async.supply(hel("Hello"))
 ```
 
 pattern matching example:
-```cpp
+```go
 func test(x) = match(x) {
     case a: "case a: " + a
     case b: "case b: " + b
@@ -48,7 +48,7 @@ println test("test")  // case c: test
 ```
 
 stream api example:
-```cpp
+```go
 using "lzr.utils.streamApi"
 
 inputArray = range(0, 5) // [0, 0, 0, 0, 0]
