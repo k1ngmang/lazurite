@@ -22,7 +22,7 @@ print("Hello World!")
 
 
 async example:
-```cppz
+```cpp
 using "lzr.utils.async"
 
 func hel(arg) {
