@@ -14,6 +14,7 @@ import org.json.JSONTokener;
 import java.util.HashMap;
 import java.util.Map;
 
+@SuppressWarnings("unused")
 public final class json implements Library {
     @Override
     public void init() {

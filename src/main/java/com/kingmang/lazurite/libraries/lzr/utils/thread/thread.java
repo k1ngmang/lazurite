@@ -9,6 +9,7 @@ import kotlin.Pair;
 import java.util.HashMap;
 import java.util.Map;
 
+@SuppressWarnings("unused")
 public class thread implements Library {
     @Override
     public void init() {

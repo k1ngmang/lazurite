@@ -14,6 +14,7 @@ import org.jetbrains.annotations.NotNull;
 import java.awt.*;
 import java.util.Objects;
 
+@SuppressWarnings("unused")
 public class system implements Library {
 
     public void init () {

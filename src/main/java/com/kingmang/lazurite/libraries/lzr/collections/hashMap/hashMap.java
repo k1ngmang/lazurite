@@ -7,6 +7,7 @@ import java.util.HashMap;
 
 import static com.kingmang.lazurite.libraries.lzr.collections.MapFunctions.mapFunction;
 
+@SuppressWarnings("unused")
 public class hashMap implements Library {
     @Override
     public void init() {

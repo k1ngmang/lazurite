@@ -8,6 +8,7 @@ import java.util.concurrent.ConcurrentSkipListMap;
 
 import static com.kingmang.lazurite.libraries.lzr.collections.MapFunctions.sortedMapFunction;
 
+@SuppressWarnings("unused")
 public class treeMap implements Library {
     @Override
     public void init() {

@@ -7,6 +7,7 @@ import java.util.concurrent.ConcurrentSkipListMap;
 
 import static com.kingmang.lazurite.libraries.lzr.collections.MapFunctions.sortedMapFunction;
 
+@SuppressWarnings("unused")
 public class concurrentSkipListMap implements Library {
     @Override
     public void init() {

@@ -14,6 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
+@SuppressWarnings("unused")
 public final class random implements Library {
     private final Random RND = new Random();
 

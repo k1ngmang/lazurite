@@ -7,6 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import static com.kingmang.lazurite.libraries.lzr.collections.MapFunctions.mapFunction;
 
+@SuppressWarnings("unused")
 public class concurrentHashMap implements Library {
     @Override
     public void init() {

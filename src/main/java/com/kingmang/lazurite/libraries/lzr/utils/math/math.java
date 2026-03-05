@@ -13,7 +13,7 @@ import java.util.function.DoubleFunction;
 import java.util.function.DoubleUnaryOperator;
 import java.util.function.UnaryOperator;
 
-
+@SuppressWarnings("unused")
 public final class math implements Library {
 
     private static final DoubleFunction<LzrNumber> doubleToNumber = LzrNumber::of;

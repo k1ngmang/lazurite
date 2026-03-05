@@ -29,10 +29,13 @@ public enum Events {
         SWIPE_RIGHT(SwipeEvent.SWIPE_RIGHT),
         SWIPE_UP(SwipeEvent.SWIPE_UP);
 
-        private final EventType<? extends Event> handler;
+        private final EventType<? extends Event> Handler;
 
         Events(EventType<? extends Event> handler) {
-            this.handler = handler;
+            this.Handler = handler;
         }
 
+    public EventType<? extends Event> getHandler() {
+        return Handler;
+    }
 }

@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+@SuppressWarnings("unused")
 public class socket implements Library {
 
     @Override

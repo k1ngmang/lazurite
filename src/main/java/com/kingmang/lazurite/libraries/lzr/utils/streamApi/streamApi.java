@@ -12,6 +12,7 @@ import kotlin.Pair;
 import java.util.HashMap;
 import java.util.Map;
 
+@SuppressWarnings("unused")
 public class streamApi implements Library {
     @Override
     public void init() {

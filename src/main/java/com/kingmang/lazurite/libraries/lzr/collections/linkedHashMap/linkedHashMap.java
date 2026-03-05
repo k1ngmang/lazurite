@@ -7,6 +7,7 @@ import java.util.LinkedHashMap;
 
 import static com.kingmang.lazurite.libraries.lzr.collections.MapFunctions.mapFunction;
 
+@SuppressWarnings("unused")
 public class linkedHashMap implements Library {
     @Override
     public void init() {

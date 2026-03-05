@@ -8,6 +8,7 @@ import com.kingmang.lazurite.runtime.values.*;
 
 import java.util.concurrent.TimeUnit;
 
+@SuppressWarnings("unused")
 public class measurement implements Library {
     @Override
     public void init() {

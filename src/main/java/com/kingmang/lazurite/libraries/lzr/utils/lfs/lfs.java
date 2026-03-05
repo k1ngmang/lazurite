@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-
+@SuppressWarnings("unused")
 public final class lfs implements Library {
 
    private static Map<Integer, FileInfo> files;

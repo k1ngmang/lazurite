@@ -9,6 +9,7 @@ import com.kingmang.lazurite.runtime.values.*;
 import java.util.LinkedList;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+@SuppressWarnings("unused")
 public class queue implements Library {
     @Override
     public void init() {

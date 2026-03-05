@@ -4,7 +4,7 @@ import com.kingmang.lazurite.libraries.Library;
 import com.kingmang.lazurite.runtime.Variables;
 import com.kingmang.lazurite.runtime.values.LzrMap;
 
-
+@SuppressWarnings("unused")
 public class io implements Library {
 
 

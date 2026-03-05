@@ -20,7 +20,7 @@ import java.nio.file.Files;
 import java.util.List;
 import java.util.Map;
 
-
+@SuppressWarnings("unused")
 public final class http implements Library {
 
     public static void initConstants() {}

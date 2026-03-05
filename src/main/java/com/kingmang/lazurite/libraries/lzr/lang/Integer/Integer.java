@@ -5,6 +5,7 @@ import com.kingmang.lazurite.runtime.Variables;
 import com.kingmang.lazurite.runtime.values.LzrMap;
 import com.kingmang.lazurite.runtime.values.LzrNumber;
 
+@SuppressWarnings("unused")
 public class Integer implements Library {
     @Override
     public void init() {

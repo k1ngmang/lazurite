@@ -17,6 +17,7 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
+@SuppressWarnings("unused")
 public class lsoup implements Library {
 
     public static String docs = "";
